@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fx_jsonresponse.HelloController">
+    <children>
+        <Label fx:id="welcomeText" layoutX="14.0" layoutY="20.0" prefHeight="25.0" prefWidth="215.0" />
+        <Button layoutX="168.0" layoutY="63.0" onAction="#onHelloButtonClick" text="getJSON" />
+        <Label fx:id="blockedText" layoutX="232.0" layoutY="37.0" prefHeight="17.0" prefWidth="100.0" />
+        <Button layoutX="232.0" layoutY="63.0" onAction="#checkIfBlocked" text="Blocked?" />
+        <Label fx:id="welcomeText2" layoutX="26.0" layoutY="223.0" prefHeight="25.0" prefWidth="215.0" />
+        <Button layoutX="180.0" layoutY="266.0" onAction="#doWithThread" text="getJSON" />
+        <Label fx:id="blockedText2" layoutX="244.0" layoutY="240.0" prefHeight="17.0" prefWidth="100.0" />
+        <Button layoutX="244.0" layoutY="266.0" onAction="#checkIfBlocked2" text="Blocked?" />
+        <Label layoutX="35.0" layoutY="183.0" prefHeight="17.0" prefWidth="524.0" text="==========================NOW with THREADING===============================" textAlignment="CENTER" />
+    </children>
+</AnchorPane>
